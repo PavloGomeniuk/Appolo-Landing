@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.container {
+	width: 1500px;
+	height: 750px;
+	margin: 0 auto 50px auto;
+	box-sizing: border-box;
+	background: #efefef url(../image/2-layers.png) ;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.first {
+	position: relative;
+}
+
+.menu {
+	position: absolute;
+	border: 0;
+	color: #000000;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin: 38px 0px 0 1330px;
+	background: #efefef;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	display: inline-block;
+}
+
+.right {
+	padding-right: 14px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.apollo{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.apollo span {
+	font-weight: 100;
+}
+
+.apollo-text {
+	position: relative;
+	max-width: 450px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.first-text {
+	padding: 243px 0 0 170px;
+}
+
+.apollo-text::after {
+	position: absolute;
+	content: " ";
+	left: 0;
+	top: 140px;
+	width: 2px;
+	height: 80px;
+	background-color: black;
+}
+
+.container.second {
+	background: #efefef url(../image/2-layers1.png) left/contain no-repeat ;
+}
+
+.second-text {
+	padding: 183px 198px 0 691px;
+}
+
+.apollo-line {
+	width: 80px;
+	height: 2px;
+	background-color: black;
+	float: left;
+	margin: 31px 41px 0 0;
+}
+
+.square {
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin-right: 28px;
+	margin-top: 60px;
+	background: #909090 url(../image/face.png) center no-repeat ;
+}
+
+.square.second {
+	background: #020202 url(../image/qwe.png) center no-repeat ;
+}
+
+.square.third {
+	background: #909090 url(../image/qwe1.png) center no-repeat ;
+}
+
+.square.fourth {
+	background: #909090 url(../image/qew3.png) center no-repeat ;
+}
+
+.container.third {
+	position: relative;
+}
+
+.central-img {
+	width: 100%;
+}
+
+.image-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+.buttons {
+	position: absolute;
+	top: 336px;
+	left: 42px;
+	z-index: 1;
+}
+
+.button-left {
+	width: 75px;
+	height: 75px;
+	background: #ffffff url(../image/Grupa_4.png) center no-repeat ;
+	border: 0px;
+}
+
+.button-left.right {
+	position: relative;
+	background: #ffffff url(../image/Grupa_5.png) center no-repeat ;
+	left: 1241px;
+}
+
+.container.fourth {
+	background: #efefef url(../image/2-layers2.png)  no-repeat;
+	background-position: center;
+}
+
+.fourth-text {
+	padding: 214px 902px 0 184px;
+}
+
+.container.fifth {
+	background: #efefef url(../image/2-layers3.png) no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.fifth-img {
+	position: absolute;
+	top: 196px;
+	left: 83px;
+}
+
+.first-png {
+	position: relative;
+	z-index: 0;
+}
+
+.second-png {
+	position: absolute;
+	z-index: 1;
+	top: -46px;
+	left: 336px;
+}
+
+.third-png {
+	position: relative;
+	left: 260px;
+	z-index: 0;
+}
+
+.container.last {
+	background: #efefef url(../image/O_kopia.png) no-repeat;
+}
+
+.last-form {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 62px;
+}
+
+form {
+	padding: 99px 192px 0 192px;
+}
+
+input {
+	width: 256px;
+	height: 45px;
+	border: 1px solid #020202;
+	background-color: #efefef;
+	padding-left: 21px;
+}
+
+input::placeholder {
+	color: #000000;
+	font-size: 16px;
+}
+
+.inputs {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.mail {
+	margin-right: 31px;
+}
+
+.text {
+	height: 131px;
+	margin-bottom: 29px;
+	width: 93%;
+	display: block;
+}
+
+.message {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	background-color: black;
+	display: block;
+	width: 97%;
+	padding: 8px 0;
+}
+
+.text::placeholder {
+	position: relative;
+	top: -45px;
+}
+
+.next-text {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
